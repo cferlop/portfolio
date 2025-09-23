@@ -1,0 +1,96 @@
+header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: #2c1c90;
+            color: white;
+        }
+        .perfil {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 30px;
+            font-size: 20px;
+            }
+            .foto-perfil {
+            width: 180px;
+            height: 180px;
+            border-radius: 20px;
+            object-fit: cover;
+            }
+            .perfil-div {
+                flex: 1;
+                height: 400px;
+            }
+        h2 {
+            margin-top: 80px;
+            margin-bottom: 40px;
+            text-align: center;
+            background-color:aquamarine;
+            border-radius: 15px;
+        }
+       
+        #h2-acerca {
+            margin-bottom: 70px;
+        }
+        
+       .tabla-conocimientos {
+            width: 50%; /* o un ancho fijo como 800px */
+            margin: 0 auto; /* ← Esto centra la tabla */
+            border-collapse: separate;
+            border-spacing: 50px 30px;
+            text-align: center;
+        }
+        .table-redes {
+            width: 10%; /* o un ancho fijo como 800px */
+            margin: 0 auto; /* ← Esto centra la tabla */
+            border-collapse: separate;
+            border-spacing: 20px 30px;
+            text-align: center;
+        }
+        nav ul{
+
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .conocimiento {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px; 
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            
+        }
+        section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+            margin-bottom: 100px
+        }
+        p {
+            
+            font-size: 20px;
+        }
+        .experiencia-item {
+            background: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #2c1c90;
+            border-radius: 5px;
+        }
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 30px;
+            background: #2c1c90;
+            color: white;
+        }
+        
